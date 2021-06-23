@@ -1,0 +1,51 @@
+#app {
+    width: 100%;
+    height: 800px;
+    background-color: aliceblue;
+}
+
+.container
+{
+    text-align: center;
+}
+
+/*Start your code from here */
+
+#carousel1{
+    background-color: red;
+}
+#carousel1 img{
+    height: 300px;
+    margin-top: 35px;
+}
+.carousel-inner p{
+    margin-bottom: 15px;
+    margin-top: 15px;
+    color: white;
+    font-size: 20px;
+}
+img{
+    width: 300px;
+    height: 300px;
+    margin-left: 10px;
+    margin-bottom: 10px;
+    border: 5px solid blue;
+    border-radius: 10px;
+  }
+  body{
+    text-align: center;
+  }
+  html{
+      scroll-behavior: smooth;
+  }
+  li{
+      text-decoration: none;
+      list-style: none;
+      float: left;
+      color: black;
+      background-color: white;
+  }
+  ul{
+      position: fixed;
+      z-index: 1;
+  }
